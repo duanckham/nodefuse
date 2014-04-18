@@ -1,0 +1,34 @@
+{
+  "name": "fusejs",
+  "version": "0.0.1",
+  "description": "Low level fuse bindings for nodejs",
+  "main": "fuse.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "node-mongodb-native": "~1.4.0-rc7",
+    "mongodb": "~1.3.23",
+    "node-terminal": "~0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noevil/fusejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "fuse"
+  ],
+  "author": "noevil",
+  "license": "BSD",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/noevil/fusejs/issues"
+  }
+}

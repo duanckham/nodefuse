@@ -1,0 +1,9 @@
+.DS_Store
+.lock-wscript
+.vagrant
+*.swp
+*.swo
+build
+node_modules
+test
+Vagrantfile
